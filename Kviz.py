@@ -2,7 +2,7 @@ def kviz():
     bodovi = 0
 
     
-    print("1. Koji je glavni grad Francuske?")
+    print("\n1. Koji je glavni grad Francuske?")
     odgovor1 = input("a) Madrid\nb) Pariz\nc) Berlin\nd) Rim\nOdgovor: ")
     if odgovor1.lower() == 'b':
         bodovi += 1
